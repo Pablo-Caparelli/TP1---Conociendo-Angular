@@ -1,3 +1,19 @@
+h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.nombre {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.motivo-estudio {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 20px;
+}
+
 .navbar {
   width: 100%;
   height: 100px;
@@ -19,8 +35,8 @@
 .navbar a {
   text-decoration: none;
   font-size: 3rem;
-  color: white; /* Letras blancas */
-  line-height: 20px; /* Ajusta alineación vertical */
+  color: white;
+  line-height: 20px;
 }
 
 .navbar a.active {

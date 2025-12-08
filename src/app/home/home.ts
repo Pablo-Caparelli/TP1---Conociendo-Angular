@@ -2,10 +2,21 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-home',
-  imports: [],
   templateUrl: './home.html',
-  styleUrl: './home.css',
+  styleUrls: ['./home.css'],
 })
 export class Home {
+  contador: number = 0;
 
+  incrementar() {
+    this.contador++;
+  }
+
+  decrementar() {
+    this.contador--;
+  }
+
+  reiniciar() {
+    this.contador = 0;
+  }
 }

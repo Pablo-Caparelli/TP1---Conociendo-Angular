@@ -1,0 +1,12 @@
+.contador {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  width: 200px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.contador button {
+  margin: 0 5px;
+  padding: 5px 10px;
+}
