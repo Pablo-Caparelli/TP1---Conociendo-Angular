@@ -1,0 +1,21 @@
+.productos-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columnas iguales */
+  gap: 20px; /* espacio entre productos */
+  margin: 20px;
+}
+
+.producto {
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+  background-color: #f8f8f8;
+  border-radius: 5px;
+}
+
+.producto img {
+  width: 50%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 5px;
+}

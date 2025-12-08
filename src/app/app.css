@@ -1,0 +1,30 @@
+.navbar {
+  width: 100%;
+  height: 100px;
+  background-color: #005bbb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 60px;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar a {
+  text-decoration: none;
+  font-size: 3rem;
+  color: white; /* Letras blancas */
+  line-height: 20px; /* Ajusta alineación vertical */
+}
+
+.navbar a.active {
+  font-weight: bold;
+  color: rgb(11, 233, 222);
+  text-decoration: none;
+}

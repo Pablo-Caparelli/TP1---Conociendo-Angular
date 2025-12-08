@@ -1,1 +1,26 @@
 <h1 class="title">TP1 - Mi primera app de Angular</h1>
+<p><b>Pablo Caparelli</b></p>
+<hr />
+
+<p>
+  "Quiero estudiar y aprender a utilizar Angular, para incorporar esta nueva herramienta a mis
+  conocimientos y así poder insertarme en el futuro en el mundo de la tecnología."
+</p>
+
+<main>
+  <header>
+    <nav class="navbar">
+      <ul>
+        <li>
+          <a routerLink="/home" routerLinkActive="active">Home</a>
+        </li>
+        <li>
+          <a routerLink="/productos" routerLinkActive="active">Productos</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Aquí se cargan las páginas -->
+  <router-outlet></router-outlet>
+</main>
