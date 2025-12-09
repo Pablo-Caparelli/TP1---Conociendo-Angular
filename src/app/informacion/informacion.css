@@ -1,0 +1,38 @@
+.informacion-container {
+  width: 60%;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  line-height: 1.6;
+}
+
+h1 {
+  font-size: 4rem;
+  text-decoration: underline;
+  margin-bottom: 20px;
+  color: #003f9e;
+}
+
+h2,
+h3 {
+  font-size: 2.5rem;
+  text-decoration: underline;
+  margin-top: 25px;
+  color: #003f9e;
+}
+
+p {
+  font-size: 1.8rem;
+  color: #30e039;
+  margin: 10px 0;
+}
+
+/* Negritas */
+strong {
+  color: #222;
+}
+
+/* Opcional: separación visual */
+.informacion-container p + p {
+  margin-top: 12px;
+}
