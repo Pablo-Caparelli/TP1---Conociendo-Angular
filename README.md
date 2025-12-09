@@ -64,9 +64,9 @@ http://localhost:4200/
 
 ## 🖼️ Capturas de Pantalla
 
-![Home](./captura1%20-%20home.jpeg)
-![Productos](./captura2%20-%20productos.jpeg)
-![Información](./captura3%20-%20informacion.jpeg)
+![Home](./public/captura1-home.jpeg)
+![Productos](./public/captura2-productos.jpeg)
+![Información](./public/captura3-informacion.jpeg)
 
 👨‍🎓 Créditos
 Autor: Pablo Caparelli
