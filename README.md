@@ -1,59 +1,76 @@
-# TP1
+# TP1 - Mi Primera App en Angular
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.2.
+Este proyecto es una práctica inicial de Angular que incluye:
 
-## Development server
+- Uso de **interpolación** y manejo de estado mediante un contador.
+- Creación de **componentes** organizados por pantallas (`screens`).
+- Navegación mediante **Angular Router**.
+- Estilos personalizados en cada vista.
+- Página informativa con descripción de carpetas y estructura del proyecto.
 
-To start a local development server, run:
+---
 
-```bash
+## 🚀 Tecnologías utilizadas
+
+- Angular
+- TypeScript
+- HTML / CSS
+- Angular Router
+
+---
+
+# 📌 Estructura del Proyecto
+
+El proyecto utiliza la carpeta `screens` para organizar las pantallas principales:
+
+### **Pantallas incluidas**
+
+- **Home:** Contador con botones (incrementar, decrementar y reiniciar).
+- **Productos:** Vista con seis productos y sus imágenes.
+- **Información:** Explicación de la estructura del proyecto Angular.
+
+---
+
+# 📁 Función de cada carpeta importante
+
+- **/app:** componentes, rutas, lógica principal.
+- **/screens:** pantallas principales del proyecto (home, productos, información).
+- **/app.routes.ts:** define las rutas y navegación.
+- **/public:** archivos estáticos que deben copiarse tal cual.
+- **/assets:** imágenes, íconos, fuentes, JSON y otros archivos estáticos del proyecto.
+
+---
+
+# 📥 Cómo clonar este proyecto
+
+git clone <https://github.com/Pablo-Caparelli/TP1---Conociendo-Angular.git>
+
+Luego ingresar a la carpeta del proyecto:
+cd TP1
+
+📦 Instalación de dependencias:
+npm install
+
+▶️ Ejecutar el proyecto
+Opción 1 (Angular CLI):
 ng serve
-```
+Opción 2 (npm script):
+npm start
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Luego abrir en el navegador:
+http://localhost:4200/
 
-## Code scaffolding
+🖼️ Capturas de Pantalla
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+![Home]: (./captura1 - home.jpeg)
 
-```bash
-ng generate component component-name
-```
+![Productos]: (./captura 2 -productos.jpeg)
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+![Información]: (./captura 3 - informacion)
 
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+👨‍🎓 Créditos
+Autor: Pablo Caparelli
+Curso / Comisión: 999201564
+Trabajo Práctico: TP1 – Angular
+Año: 2025
+Diplomatura en Professional Full-Stack Developer

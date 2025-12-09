@@ -44,3 +44,61 @@ h1 {
   color: rgb(11, 233, 222);
   text-decoration: none;
 }
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  .nombre {
+    font-size: 1.4rem;
+  }
+
+  .motivo-estudio {
+    font-size: 1.1rem;
+    padding: 10px;
+  }
+
+  .navbar {
+    height: auto;
+    padding: 15px 0;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .navbar a {
+    font-size: 1.7rem;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  .nombre {
+    font-size: 1.7rem;
+  }
+
+  .motivo-estudio {
+    font-size: 1.3rem;
+    padding: 15px;
+  }
+
+  .navbar {
+    height: auto;
+    padding: 20px 0;
+  }
+
+  .navbar ul {
+    flex-direction: row;
+    gap: 30px;
+  }
+
+  .navbar a {
+    font-size: 2rem;
+  }
+}
