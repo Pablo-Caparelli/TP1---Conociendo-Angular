@@ -1,12 +1,72 @@
+.home-container {
+  position: relative;
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column; /* elementos en columna (vertical) */
+  align-items: center; /* centra horizontalmente */
+  justify-content: center; /* opcional: centra verticalmente todo */
+  overflow: hidden;
+}
+
+.home-container .fondo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.titulo1 {
+  font-size: 5rem;
+  margin-top: 40px;
+}
+
 .contador {
-  border: 1px solid #ccc;
+  position: relative;
+  z-index: 2; /* para que quede sobre la imagen */
+  border: 2px solid #ccc;
   padding: 1rem;
-  width: 200px;
+  width: 600px;
   text-align: center;
-  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  background-color: rgba(255, 255, 255, 0.7); /* opcional: fondo semi-transparente */
+  border-radius: 10px;
+}
+
+.titulo2 {
+  font-size: 3rem;
+}
+
+.botones {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
 .contador button {
-  margin: 0 5px;
-  padding: 5px 10px;
+  padding: 20px 20px;
+  width: 150px;
+  border-radius: 10px;
+  font-size: 2rem;
+}
+
+.incrementar {
+  background-color: rgb(69, 228, 54);
+  color: whitesmoke;
+}
+
+.decrementar {
+  background-color: rgb(221, 28, 28);
+  color: whitesmoke;
+}
+
+.reiniciar {
+  background-color: blueviolet;
+  color: whitesmoke;
 }

@@ -1,12 +1,14 @@
-<h1>Bienvenido a Home</h1>
+<div class="home-container">
+  <h1 class="titulo1">Bienvenido a mi Home</h1>
 
-<!-- Contador -->
-<div class="contador">
-  <h2>Contador: {{ contador }}</h2>
-  <button (click)="incrementar()">+</button>
-  <button (click)="decrementar()">-</button>
-  <button (click)="reiniciar()">Reiniciar</button>
+  <!-- Contador -->
+  <div class="contador">
+    <h2 class="titulo2">Contador: {{ contador }}</h2>
+    <br />
+    <div class="botones">
+      <button class="incrementar" (click)="incrementar()">+</button>
+      <button class="decrementar" (click)="decrementar()">-</button>
+      <button class="reiniciar" (click)="reiniciar()">Reiniciar</button>
+    </div>
+  </div>
 </div>
-
-<!-- Aquí podrías incluir tus productos -->
-<!-- <app-productos></app-productos> -->
