@@ -22,6 +22,7 @@
 .titulo1 {
   font-size: 5rem;
   margin-top: 40px;
+  text-align: center;
 }
 
 .contador {
@@ -51,7 +52,7 @@
 
 .contador button {
   padding: 20px 20px;
-  width: 150px;
+  width: 170px;
   border-radius: 10px;
   font-size: 2rem;
 }
