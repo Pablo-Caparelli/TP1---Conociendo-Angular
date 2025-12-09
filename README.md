@@ -62,11 +62,13 @@ http://localhost:4200/
 
 🖼️ Capturas de Pantalla
 
-![Home]: (./captura1 - home.jpeg)
+## 🖼️ Capturas de Pantalla
 
-![Productos]: (./captura 2 -productos.jpeg)
+![Home](./captura1-home.jpeg)
 
-![Información]: (./captura 3 - informacion)
+![Productos](./captura2-productos.jpeg)
+
+![Información](./captura3-informacion.jpeg)
 
 👨‍🎓 Créditos
 Autor: Pablo Caparelli
