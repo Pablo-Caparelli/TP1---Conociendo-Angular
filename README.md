@@ -64,11 +64,11 @@ http://localhost:4200/
 
 ## 🖼️ Capturas de Pantalla
 
-![Home](./captura1-home.jpeg)
+![Home](./captura1 - home.jpeg)
 
-![Productos](./captura2-productos.jpeg)
+![Productos](./captura2 - productos.jpeg)
 
-![Información](./captura3-informacion.jpeg)
+![Información](./captura3 - informacion.jpeg)
 
 👨‍🎓 Créditos
 Autor: Pablo Caparelli
